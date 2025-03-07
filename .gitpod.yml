@@ -1,9 +1,11 @@
 tasks:
 - name: deno
   before: |
-    curl -fsSL https://deno.land/install.sh | sh
-
-
+    curl -fsSL https://deno.land/install.sh | sh -s -- --yes
+    export PATH="$HOME/.deno/bin:$PATH" 
+    deno --version
+  command: 
+    echo "Deno is installed and ready to use"
 
 vscode:
   extensions:
