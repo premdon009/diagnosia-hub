@@ -1,0 +1,10 @@
+tasks:
+- name: deno
+  before: |
+    curl -fsSL https://deno.land/install.sh | sh
+
+
+
+vscode:
+  extensions:
+    - denoland.vscode-deno
