@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Diagnosia Hub",
   description:
-    "GenerAn open-source, cross-platform application for medical laboratories that streamlines patient management, test billing, result entry, verification, and report generationated by create next app",
+    "An open-source, cross-platform application for medical laboratories that streamlines patient management, test billing, result entry, verification, and report generation",
 };
 
 export default function RootLayout({
